@@ -6,7 +6,6 @@ from lib.font_to_matrix import CharacterGenerator
 from PyQt4.QtCore import QThread
 
 import time
-import encodings
 
 try:
     from bluepy.btle import UUID, DefaultDelegate, Peripheral, BTLEException
@@ -154,7 +153,7 @@ class MatrixWidget(QtGui.QWidget):
 
         # Send button
         self.pBSend = QtGui.QPushButton(self)
-        self.pBSend.setGeometry(QtCore.QRect(50, 325, 110, 30))
+        self.pBSend.setGeometry(QtCore.QRect(105, 325, 110, 30))
         self.pBSend.setFont(font)
         self.pBSend.setObjectName(_fromUtf8("pBSend"))
         self.pBSend.setText("Send to Nuimo")
@@ -162,7 +161,7 @@ class MatrixWidget(QtGui.QWidget):
 
         # Right button
         self.pBRight = QtGui.QPushButton(self)
-        self.pBRight.setGeometry(QtCore.QRect(170, 325, 30, 20))
+        self.pBRight.setGeometry(QtCore.QRect(225, 325, 30, 20))
         self.pBRight.setFont(font)
         self.pBRight.setObjectName(_fromUtf8("pBRight"))
         self.pBRight.setText(">")
@@ -170,7 +169,7 @@ class MatrixWidget(QtGui.QWidget):
 
         # Left button
         self.pBLeft = QtGui.QPushButton(self)
-        self.pBLeft.setGeometry(QtCore.QRect(10, 325, 30, 20))
+        self.pBLeft.setGeometry(QtCore.QRect(65, 325, 30, 20))
         self.pBLeft.setFont(font)
         self.pBLeft.setObjectName(_fromUtf8("pBLeft"))
         self.pBLeft.setText(""                  "<")
@@ -178,14 +177,14 @@ class MatrixWidget(QtGui.QWidget):
 
         # textEdit field
         self.tEText = QtGui.QLineEdit(self)
-        self.tEText.setGeometry(QtCore.QRect(10, 355, 185, 20))
+        self.tEText.setGeometry(QtCore.QRect(65, 355, 185, 20))
         self.tEText.setFont(font)
         self.tEText.setObjectName(_fromUtf8("tEText"))
         self.tEText.setText(u"Попробуйте прокрутки текста...")
 
         # Start button
         self.pBStart = QtGui.QPushButton(self)
-        self.pBStart.setGeometry(QtCore.QRect(50, 375, 110, 30))
+        self.pBStart.setGeometry(QtCore.QRect(105, 375, 110, 30))
         self.pBStart.setFont(font)
         self.pBStart.setObjectName(_fromUtf8("pBStart"))
         self.pBStart.setText("Scroll Text")
