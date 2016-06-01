@@ -13,7 +13,7 @@ choosing the proper one.
 
 Don’t know what a nuimo is? Check it out here: <https://www.senic.com/>, or view
 the video to get an instant impression:<https://vimeo.com/127021296>
-
+Even more intimate details can be found here https://blog.senic.com/developing-for-the-nuimo-controller-7292becfacff#.yz6pp1lsh
  
 
 I was looking into the development of a remote control for a project I’m working
