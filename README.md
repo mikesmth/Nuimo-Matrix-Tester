@@ -176,5 +176,5 @@ Download the source, and have fun!
 
 On OS X you can launch the program with python launcher to check it out.
 
-On the Pi, use python nuimo\_matrix.py [MAC Address of your Nuimo]
+On the Pi, use python nuimo\_matrix.py /[MAC Address of your Nuimo]/
 (e.g.E7:F7:E5:C8:BB:91)
