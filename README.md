@@ -6,7 +6,7 @@ Nuimo-Matrix-Tester
 Hello all, my name is ᗰᓮᖽᐸᕧ and I created this Nuimo tester with a Qt
 user-interface.
 
-![](http://mybesttools.net/github/NuimoTester.png)
+![](http://mybesttools.net/github/NuimoTester2.png)
 
 My favourite programming ui for Python is PyCharm, but I guess you’ll manage
 choosing the proper one.
